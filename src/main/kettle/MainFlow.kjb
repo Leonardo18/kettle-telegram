@@ -392,7 +392,7 @@
       <type>JOB</type>
       <specification_method>filename</specification_method>
       <job_object_id />
-      <filename>/home/leonardo/Workspace/POC/kettle-telegram-integration/src/main/kettle/jobs/IntegrationTelegram.kjb</filename>
+      <filename>${Internal.Entry.Current.Directory}/jobs/IntegrationTelegram.kjb</filename>
       <jobname />
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>

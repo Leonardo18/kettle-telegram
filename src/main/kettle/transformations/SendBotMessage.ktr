@@ -578,7 +578,7 @@
         <precision>-1</precision>
       </field>
       <field>
-        <name>telegram_bot_id_client</name>
+        <name>telegram_channel</name>
         <type>String</type>
         <format />
         <currency />
@@ -771,6 +771,18 @@
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
+      <field>
+        <name>telegram_channel</name>
+        <variable>${telegram_channel}</variable>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
     </fields>
     <cluster_schema />
     <remotesteps>
@@ -868,6 +880,9 @@
       </field>
       <field>
         <name>telegram_default_text</name>
+      </field>
+      <field>
+        <name>telegram_channel</name>
       </field>
     </fields>
     <cluster_schema />
